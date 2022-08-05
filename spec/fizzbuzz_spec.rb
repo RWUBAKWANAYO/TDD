@@ -8,9 +8,9 @@ describe '#fizzbuzz' do
     expect(Solver.new.fizzbuzz(5)).to eq 'buzz'
   end
   it 'should return string "FizzBuzz" if number is divisible by 3 and 5' do
-    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    expect(Solver.new.fizzbuzz(15)).to eq 'fizzbuzz'
   end
   it 'should return number as a string if number is not divisible by 3 or 5' do
-    expect(fizzbuzz(1)).to eq '1'
+    expect(Solver.new.fizzbuzz(1)).to eq '1'
   end
 end
