@@ -1,3 +1,5 @@
 class Solver
-  def fizzbuzz; end
+  def fizzbuzz(number)
+  
+  end
 end
