@@ -1,4 +1,10 @@
 class Solver
+  def factorial(num)
+    raise Exception, 'Invalid number' if num.negative?
+
+    (2..num).reduce(1, :*)
+  end
+  
   def fizzbuzz(number)
     if (number % 3).zero? && (number % 5).zero?
       'fizzbuzz'
